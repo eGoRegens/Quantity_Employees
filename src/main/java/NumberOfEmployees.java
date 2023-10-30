@@ -9,6 +9,6 @@ public class NumberOfEmployees {
 
         System.out.println("Требуемое кол-во тестировщиков на проекта = " + totalTesters);
         System.out.println("Требуемое кол-во специалистов поддержки = " + totalSupports);
-        System.out.println("Общее кол-во сотрудников на проекте = " + totalEmployees);
+        System.out.println("Общее кол-во сотрудников требуемое на проекте = " + totalEmployees);
     }
 }
