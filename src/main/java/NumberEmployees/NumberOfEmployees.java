@@ -1,8 +1,11 @@
+package NumberEmployees;
+
 public class NumberOfEmployees {
     public static void main(String[] args) {
         final int quantityProgrammers = 3;
         final int quantityTestersForProgrammers = 1; // кол-во тестеров на одного программиста
         final int quantitySupports = 2; // кол-во поддержки на обработку жалоб по поводу кода 1 программиста.
+
         final int totalTesters = quantityProgrammers * quantityTestersForProgrammers;
         final int totalSupports = quantityProgrammers * quantitySupports;
         final int totalEmployees = quantityProgrammers + totalTesters + totalSupports;
